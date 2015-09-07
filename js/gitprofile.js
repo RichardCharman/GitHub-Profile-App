@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     e.preventDefault();
 
-    var access_token = '2b791d085ce5652308540ff60fd994cc67a04d66' // Replace this with a Github access token that you can generate as explained here https://help.github.com/articles/creating-an-access-token-for-command-line-use/
+    var access_token = 'e982893c17d176659dab616f288d04482dff05f9' // Replace this with a Github access token that you can generate as explained here https://help.github.com/articles/creating-an-access-token-for-command-line-use/
     var url = 'https://api.github.com/users/' + $('input.username').val() + "?access_token=" + access_token;
 
     var template = $('template').html();
